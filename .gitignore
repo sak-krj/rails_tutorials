@@ -1,0 +1,18 @@
+# Ignore bundler config.
+/chapter*/*/.bundle
+
+# Ignore the default SQLite database.
+/chapter*/*/db/*.sqlite3
+/chapter*/*/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/chapter*/*/log/*
+/chapter*/*/tmp/*
+!/chapter*/*/log/.keep
+!/chapter*/*/tmp/.keep
+
+# Ignore Byebug command history file.
+/chapter*/*/.byebug_history
+
+# Ignore Spring files.
+/chapter*/*/spring/*.pid
