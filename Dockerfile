@@ -2,6 +2,7 @@ FROM ruby:2.5
 RUN apt-get update -qq && apt-get install -y nodejs postgresql-client && apt-get install -y sudo
 # RUN mkdir /myapp
 WORKDIR /rails_tutorial
+RUN gem install rails
 # COPY Gemfile /myapp/Gemfile
 # COPY Gemfile.lock /myapp/Gemfile.lock
 # RUN bundle install
